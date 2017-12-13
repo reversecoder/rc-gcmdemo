@@ -1,7 +1,9 @@
-package com.reversecoder.gcm.demo;
+package com.reversecoder.gcm.demo.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.reversecoder.gcm.demo.R;
 
 public class MainActivity extends AppCompatActivity {
 
