@@ -4,9 +4,9 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * Created by rashed on 12/13/17.
+ * @author Md. Rashadul Alam
+ *         Email: rashed.droid@gmail.com
  */
-
 public class Notification implements Parcelable {
 
     private String title = "";

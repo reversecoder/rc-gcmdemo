@@ -6,9 +6,9 @@ import android.os.Bundle;
 import com.google.android.gms.gcm.GcmListenerService;
 
 /**
- * Created by rashed on 12/13/17.
+ * @author Md. Rashadul Alam
+ *         Email: rashed.droid@gmail.com
  */
-
 public class GcmService extends GcmListenerService {
 
     @Override
@@ -17,5 +17,4 @@ public class GcmService extends GcmListenerService {
         intent.putExtras(data);
         startService(intent);
     }
-
 }

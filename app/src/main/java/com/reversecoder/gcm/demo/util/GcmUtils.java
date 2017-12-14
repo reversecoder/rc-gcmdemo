@@ -5,12 +5,12 @@ import android.content.Context;
 import android.content.IntentFilter;
 
 /**
- * Created by rashed on 12/13/17.
+ * @author Md. Rashadul Alam
+ *         Email: rashed.droid@gmail.com
  */
-
 public class GcmUtils {
 
-    public void registerPushReceiver(Context context, BroadcastReceiver broadcastReceiver) {
+    public static void registerPushReceiver(Context context, BroadcastReceiver broadcastReceiver) {
         IntentFilter intentFilter = new IntentFilter(GcmConstants.BROADCAST_NOTIFICATION);
         intentFilter.setPriority(1);
         context.registerReceiver(broadcastReceiver, intentFilter);
